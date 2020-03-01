@@ -6,11 +6,11 @@ class EyesOnMe extends Component{
     console.log("Good!")
   }
   handleOnBlur =() =>{
-    console.log()
+    console.log('Hey! Eyes on me!')
   }
   render(){
     return(
-      <button> </button>
+      <button onFocus={this.handleOnFocus} onBlur={this.handleOnBlur}> </button>
       )
   }
 }
