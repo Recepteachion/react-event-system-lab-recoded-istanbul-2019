@@ -6,7 +6,7 @@ class EyesOnMe extends Component{
     console.log("Good!")
   }
   handleOnBlur =() =>{
-    console.log("")
+    console.log()
   }
   render(){
     return(
